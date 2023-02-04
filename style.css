@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    height: 3rem;
+    color: aqua;
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding: 0 1rem;
+    list-style: none;
+}
+main{
+    background: url(/image/body.jpg);
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    padding-top: 3rem;
+    background-size: contain;
+    display: flex;
+
+}
+#title{
+    font-size: 2rem;
+    margin: 2rem 6rem;
+    
+}
+#contact-btn{
+    background-color: rgb(14, 14, 232);
+    color: beige;
+    padding: 0.5rem;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 1rem;
+    
+}
+#btn{
+    position: absolute;
+    top: 50%;
+    
+    right: 50%;
+}
+footer{
+    background-color: rgb(38, 35, 35);
+    height: 3rem;
+}
+#quote{
+    margin-top: 2rem;
+    font-size: 18px;
+    background: -webkit-linear-gradient(#eee, rgb(111, 68, 68));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#skills{
+    color: bisque;
+}
+#right{
+    width: 50%;
+}
+#left{
+    margin-left: 6rem;
+}
+#skillTitle{
+    font-size: 2rem;
+    font-weight:500;
+    text-decoration:wavy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(rgb(255, 27, 27), rgb(154, 225, 21));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#skills{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+#skills>img{
+    padding: 0.75rem;
+}
+#philosophy{
+    position: absolute;
+    margin: 1rem 1rem;
+}
+#philoList{
+    display: inline-block;
+    
+}
+#philoList>li{
+    margin: 1rem 1rem;
+    list-style:inside;
+    font-size: 16px;
+    font-family:cursive;
+    color: cadetblue;
+    position: relative;
+}
